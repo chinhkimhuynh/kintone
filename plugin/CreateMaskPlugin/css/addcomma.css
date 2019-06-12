@@ -1,0 +1,54 @@
+/*
+ * checkvalue Plug-in
+ * Copyright (c) 2017 Cybozu
+ *
+ * Licensed under the MIT License
+ */
+
+.k-incsearch-content {
+    margin: 100px;
+}
+
+.k-incsearch-popup {
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    background-color: #fff;
+}
+
+.k-incsearch-popup ul {
+    margin: 0;
+    padding: 0;
+}
+
+.k-incsearch-popup-row {
+    display: block;
+    list-style: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.k-incsearch-popup-row a:link,
+.k-incsearch-popup-row a:visited,
+.k-incsearch-popup-row a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 15px 5px 5px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 1px 1px 1px 1px #999;
+}
+
+.k-incsearch-popup-row a:focus{
+    background-color: #ececec;
+    color: #333;
+}
+
+.k-incsearch-config-operation button {
+    margin-top: 13px;
+}

@@ -1,0 +1,40 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "アウトフォーカス後コンマ追加プラグイン",
+        "en": "Add comma after out focus plugin"
+    },
+    "description": {
+        "ja": "選択したフィールドからフォーカスが外れたらカンマ桁区切りをするプラグインです。",
+        "en": "Auto add comma after out focus to fields register plugin"
+    },
+    "icon": "image/icon.png",
+    "homepage_url": {
+        "ja": "https://kintone.bitriver.jp/",
+        "en": "https://kintone.bitriver.jp/",
+        "zh": "https://kintone.bitriver.jp/"
+    },
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/2.2.4/jquery.min.js",
+            "js/addcomma.js"
+        ],
+        "css": [
+            "css/addcomma.css"
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/2.2.4/jquery.min.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/51-modern-default.css",
+            "css/addcomma.css"
+        ],
+        "required_params": ["fields"]
+    }
+}
